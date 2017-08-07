@@ -1,0 +1,510 @@
+{
+  "currentPage": {
+    "displayTemplate": "landing",
+    "displayName": "Cinéma",
+    "BOName": "Cinéma",
+    "BOLayoutName": "[Webapp] Cinéma HAPI (prospect)",
+    "path": "/cinema/"
+  },
+  "background": {
+    "displaySize": "small",
+    "fillingMode": "useFirstCoverImage",
+    "keepForNextPage": false
+  },
+  "tracking": {
+    "omniture": {
+      "prop4": "Usage - Theme",
+      "prop5": "Usage - Theme - Cinema",
+      "prop6": "Usage - Theme - Cinema - Accueil",
+      "pageName": "Usage - Theme - Cinema - Accueil",
+      "channel": "Usage",
+      "eVar31": "[Webapp] Cinéma HAPI (prospect)",
+      "prop10": "Contenu",
+      "prop11": "Autres",
+      "prop12": "Consumer"
+    }
+  },
+  "covers": [
+    {
+      "type": "coverImage",
+      "contents": [
+        {
+          "contentID": "757",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/top/media.mycanal.fr/image/00/7/mc_cover_1920x665.20007.jpg",
+          "onClick": {
+            "displayTemplate": "landing",
+            "displayName": "Rencontres de cinéma",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/page/4ca3136537e91639e9c9b4d633175140/1331.json?cache=300000",
+            "BOName": "Rencontres de cinema",
+            "path": "/theme/emissions/pid1331-rencontres-de-cinema.html"
+          }
+        }
+      ]
+    }
+  ],
+  "strates": [
+    {
+      "type": "contentRow",
+      "title": "Les émissions",
+      "contents": [
+        {
+          "type": "landing",
+          "contentID": "757",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.mycanal.fr/image/00/9/canal_mea16-7_964x426.20009.jpg",
+          "URLImageCompact": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.mycanal.fr/image/39/4/mc-vignette_programme-212x159-rencontre-cine.15394.jpg",
+          "URLImageRegular": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.mycanal.fr/image/00/7/mc_cover_1920x665.20007.jpg",
+          "URLCoverImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.mycanal.fr/image/00/9/canal_mea16-7_964x426.20009.jpg",
+          "onClick": {
+            "displayTemplate": "landing",
+            "displayName": "Rencontres de cinéma",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/page/4ca3136537e91639e9c9b4d633175140/1331.json?cache=300000",
+            "BOName": "Rencontres de cinema",
+            "path": "/theme/emissions/pid1331-rencontres-de-cinema.html"
+          }
+        },
+        {
+          "type": "landing",
+          "contentID": "5026",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.mycanal.fr/image/01/7/canal_mea16-7_964x426.20017.jpg",
+          "URLImageCompact": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.mycanal.fr/image/12/5/mc-vignette_programme-212x159-hebdo_cinema.15125.jpg",
+          "URLImageRegular": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.mycanal.fr/image/75/9/hebdocinema.16759.jpg",
+          "URLCoverImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.mycanal.fr/image/01/7/canal_mea16-7_964x426.20017.jpg",
+          "onClick": {
+            "displayTemplate": "landing",
+            "displayName": "L'hebdo cinéma",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/page/4ca3136537e91639e9c9b4d633175140/3736.json?cache=300000",
+            "BOName": "L'hebdo cinema",
+            "path": "/theme/emissions/pid3736-l-hebdo-cinema.html"
+          }
+        },
+        {
+          "type": "landing",
+          "contentID": "830",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.mycanal.fr/image/13/1/canal_mea16-7_964x426.20131.jpg",
+          "URLImageCompact": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.mycanal.fr/image/11/9/mc-vignette_programme-212x159-cercle.15119.jpg",
+          "URLImageRegular": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.mycanal.fr/image/76/4/lecercle.16764.jpg",
+          "URLCoverImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.mycanal.fr/image/13/1/canal_mea16-7_964x426.20131.jpg",
+          "onClick": {
+            "displayTemplate": "landing",
+            "displayName": "Le Cercle",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/page/4ca3136537e91639e9c9b4d633175140/1371.json?cache=300000",
+            "BOName": "Le Cercle",
+            "path": "/theme/emissions/pid1371-le-cercle.html"
+          }
+        },
+        {
+          "type": "landing",
+          "contentID": "5342",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.mycanal.fr/image/01/1/canal_mea16-7_964x426.20011.jpg",
+          "URLImageCompact": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.mycanal.fr/image/04/9/journal-du-cinema-212x159.16049.jpg",
+          "URLImageRegular": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.mycanal.fr/image/88/7/journalducinema.16887.jpg",
+          "URLCoverImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.mycanal.fr/image/01/1/canal_mea16-7_964x426.20011.jpg",
+          "onClick": {
+            "displayTemplate": "landing",
+            "displayName": "Le journal du cinéma",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/page/4ca3136537e91639e9c9b4d633175140/5585.json?cache=300000",
+            "BOName": "Le journal du cinema",
+            "path": "/theme/emissions/pid5585-le-journal-du-cinema.html"
+          }
+        }
+      ],
+      "displayParameters": {
+        "imageRatio": "166",
+        "titleDisplayMode": "none"
+      },
+      "paging": {
+        "iterationType": "index",
+        "indexStart": 0,
+        "indexEnd": 0,
+        "nbContents": 4,
+        "totalAvailableContents": 4
+      }
+    },
+    {
+      "type": "carrousel",
+      "contents": [
+        {
+          "type": "externalSite",
+          "contentID": "6178",
+          "title": "ESSENTIEL et les chaines ciné séries",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.mycanal.fr/image/48/3/mc-carrousel_tab-2048x528_cineseries.20483.jpg",
+          "URLImageCompact": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.mycanal.fr/image/48/1/mc-carrousel_mob-2048x528_cineseries.20481.jpg",
+          "URLImageRegular": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.mycanal.fr/image/48/3/mc-carrousel_tab-2048x528_cineseries.20483.jpg",
+          "onClick": {
+            "displayTemplate": "externalSite",
+            "displayName": "[Webapp bandeau] MEA aout Essentiel et les chaines ciné séries CINEMA",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/page/4ca3136537e91639e9c9b4d633175140/6006.json",
+            "BOName": "[Webapp] Cinéma HAPI (prospect)",
+            "path": "/pid6309-webapp-cinema-hapi-prospect.html",
+            "URLWebsite": "https://boutique.canal.fr/product/ESS_CS100_MULTISP/essentiel-et-les-chaines-cine-series?sc_intcmp=MYCWEB:MEACINEMA:GOT:SABONNER"
+          }
+        }
+      ],
+      "displayParameters": {
+        "imageRatio": "169"
+      }
+    },
+    {
+      "type": "contentRow",
+      "title": "Box Office",
+      "contents": [
+        {
+          "type": "quicktime",
+          "contentID": "1457578",
+          "title": "Radin !",
+          "subtitle": "Bande annonce cinéma CANAL+",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.canal-plus.com/wwwplus/image/2/1/7/nip-nip-132879-640x360-owxor.jpg",
+          "onClick": {
+            "displayTemplate": "quicktime",
+            "displayName": "Radin !",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/detail/4ca3136537e91639e9c9b4d633175140/pfv/1457578.json?id=1457578&params[type]=pfv&cache=780000",
+            "URLMedias": "https://hodor.canalplus.pro/api/v1/getMediaUrl/4ca3136537e91639e9c9b4d633175140/pfv/1457578.json?pfv={FORMAT}&cache=780000",
+            "path": "/cinema/radin-bande-annonce-cinema-canal/p/1457578"
+          }
+        },
+        {
+          "type": "quicktime",
+          "contentID": "1455092",
+          "title": "Ninja Turtles 2",
+          "subtitle": "Bande annonce cinéma CANAL+",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.canal-plus.com/wwwplus/image/2/1/1/nip-nip-131259-640x360-nzjvu.jpg",
+          "onClick": {
+            "displayTemplate": "quicktime",
+            "displayName": "Ninja Turtles 2",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/detail/4ca3136537e91639e9c9b4d633175140/pfv/1455092.json?id=1455092&params[type]=pfv&cache=780000",
+            "URLMedias": "https://hodor.canalplus.pro/api/v1/getMediaUrl/4ca3136537e91639e9c9b4d633175140/pfv/1455092.json?pfv={FORMAT}&cache=780000",
+            "path": "/cinema/ninja-turtles-2-bande-annonce-cinema-canal/p/1455092"
+          }
+        },
+        {
+          "type": "quicktime",
+          "contentID": "1457470",
+          "title": "Nos pires voisins 2",
+          "subtitle": "Bande annonce cinéma CANAL+",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.canal-plus.com/wwwplus/image/2/1/1/nip-nip-132820-640x360-bjlrd.jpg",
+          "onClick": {
+            "displayTemplate": "quicktime",
+            "displayName": "Nos pires voisins 2",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/detail/4ca3136537e91639e9c9b4d633175140/pfv/1457470.json?id=1457470&params[type]=pfv&cache=780000",
+            "URLMedias": "https://hodor.canalplus.pro/api/v1/getMediaUrl/4ca3136537e91639e9c9b4d633175140/pfv/1457470.json?pfv={FORMAT}&cache=780000",
+            "path": "/cinema/nos-pires-voisins-2-bande-annonce-cinema-canal/p/1457470"
+          }
+        },
+        {
+          "type": "quicktime",
+          "contentID": "1457469",
+          "title": "Suicide squad",
+          "subtitle": "Bande annonce cinéma CANAL+",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.canal-plus.com/wwwplus/image/2/1/1/nip-nip-132819-640x360-udhob.jpg",
+          "onClick": {
+            "displayTemplate": "quicktime",
+            "displayName": "Suicide squad",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/detail/4ca3136537e91639e9c9b4d633175140/pfv/1457469.json?id=1457469&params[type]=pfv&cache=780000",
+            "URLMedias": "https://hodor.canalplus.pro/api/v1/getMediaUrl/4ca3136537e91639e9c9b4d633175140/pfv/1457469.json?pfv={FORMAT}&cache=780000",
+            "path": "/cinema/suicide-squad-bande-annonce-cinema-canal/p/1457469"
+          }
+        },
+        {
+          "type": "quicktime",
+          "contentID": "1452717",
+          "title": "Warcraft: le commencement",
+          "subtitle": "Bande annonce cinéma CANAL+",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.canal-plus.com/wwwplus/image/2/1/1/nip-nip-129521-640x360-uvpha.jpg",
+          "onClick": {
+            "displayTemplate": "quicktime",
+            "displayName": "Warcraft: le commencement",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/detail/4ca3136537e91639e9c9b4d633175140/pfv/1452717.json?id=1452717&params[type]=pfv&cache=780000",
+            "URLMedias": "https://hodor.canalplus.pro/api/v1/getMediaUrl/4ca3136537e91639e9c9b4d633175140/pfv/1452717.json?pfv={FORMAT}&cache=780000",
+            "path": "/cinema/warcraft-le-commencement-bande-annonce-cinema-canal/p/1452717"
+          }
+        },
+        {
+          "type": "quicktime",
+          "contentID": "1452872",
+          "title": "Star Trek sans limites",
+          "subtitle": "Bande annonce cinéma CANAL+",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.canal-plus.com/wwwplus/image/2/1/1/nip-nip-129637-640x360-mkvrb.jpg",
+          "onClick": {
+            "displayTemplate": "quicktime",
+            "displayName": "Star Trek sans limites",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/detail/4ca3136537e91639e9c9b4d633175140/pfv/1452872.json?id=1452872&params[type]=pfv&cache=780000",
+            "URLMedias": "https://hodor.canalplus.pro/api/v1/getMediaUrl/4ca3136537e91639e9c9b4d633175140/pfv/1452872.json?pfv={FORMAT}&cache=780000",
+            "path": "/cinema/star-trek-sans-limites-bande-annonce-cinema-canal/p/1452872"
+          }
+        },
+        {
+          "type": "quicktime",
+          "contentID": "1452716",
+          "title": "Independence Day",
+          "subtitle": "Bande annonce cinéma CANAL+",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.canal-plus.com/wwwplus/image/2/1/1/nip-nip-129520-640x360-n3p5n.jpg",
+          "onClick": {
+            "displayTemplate": "quicktime",
+            "displayName": "Independence Day",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/detail/4ca3136537e91639e9c9b4d633175140/pfv/1452716.json?id=1452716&params[type]=pfv&cache=780000",
+            "URLMedias": "https://hodor.canalplus.pro/api/v1/getMediaUrl/4ca3136537e91639e9c9b4d633175140/pfv/1452716.json?pfv={FORMAT}&cache=780000",
+            "path": "/cinema/independence-day-bande-annonce-cinema-canal/p/1452716"
+          }
+        },
+        {
+          "type": "quicktime",
+          "contentID": "1452673",
+          "title": "Débarquement immédiat",
+          "subtitle": "Bande annonce cinéma CANAL+",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.canal-plus.com/wwwplus/image/2/1/1/nip-nip-129480-640x360-dxdty.jpg",
+          "onClick": {
+            "displayTemplate": "quicktime",
+            "displayName": "Débarquement immédiat",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/detail/4ca3136537e91639e9c9b4d633175140/pfv/1452673.json?id=1452673&params[type]=pfv&cache=780000",
+            "URLMedias": "https://hodor.canalplus.pro/api/v1/getMediaUrl/4ca3136537e91639e9c9b4d633175140/pfv/1452673.json?pfv={FORMAT}&cache=780000",
+            "path": "/cinema/debarquement-immediat-bande-annonce-cinema-canal/p/1452673"
+          }
+        },
+        {
+          "type": "quicktime",
+          "contentID": "1452198",
+          "title": "Insaisissables 2",
+          "subtitle": "Bande annonce cinéma CANAL+",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.canal-plus.com/wwwplus/image/2/1/1/nip-nip-129142-640x360-ulrmm.jpg",
+          "onClick": {
+            "displayTemplate": "quicktime",
+            "displayName": "Insaisissables 2",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/detail/4ca3136537e91639e9c9b4d633175140/pfv/1452198.json?id=1452198&params[type]=pfv&cache=780000",
+            "URLMedias": "https://hodor.canalplus.pro/api/v1/getMediaUrl/4ca3136537e91639e9c9b4d633175140/pfv/1452198.json?pfv={FORMAT}&cache=780000",
+            "path": "/cinema/insaisissables-2-bande-annonce-cinema-canal/p/1452198"
+          }
+        }
+      ],
+      "displayParameters": {
+        "imageRatio": "169",
+        "titleDisplayMode": "all"
+      },
+      "paging": {
+        "iterationType": "index",
+        "indexStart": 0,
+        "indexEnd": 8,
+        "nbContents": 9,
+        "totalAvailableContents": 9,
+        "URLPage": "https://hodor.canalplus.pro/api/v1/strateContent/4ca3136537e91639e9c9b4d633175140/pfs/pfv/contents/4839.json?dsp=player&sdm=episod&from=9&strateType=contentRow&imageRatio=169&maxContentNumber=20&doNotIterate=true",
+        "doNotIterate": true
+      }
+    },
+    {
+      "type": "contentGrid",
+      "title": "En ce moment sur CANAL+",
+      "contents": [
+        {
+          "type": "pfv",
+          "contentID": "1457707",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.canal-plus.com/wwwplus/image/2/1/8/nip-nip-132966-640x360-q3har.jpg",
+          "onClick": {
+            "displayTemplate": "detailPage",
+            "displayName": "Victoria - Coup de coeur",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/detail/4ca3136537e91639e9c9b4d633175140/pfv/1457707.json?id=1457707&params[type]=pfv&cache=780000",
+            "path": "/cinema/victoria-coup-de-coeur-bande-annonce-cinema-canal/p/1457707"
+          }
+        },
+        {
+          "type": "pfv",
+          "contentID": "1457706",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.canal-plus.com/wwwplus/image/2/1/8/nip-nip-132965-640x360-cwlwc.jpg",
+          "onClick": {
+            "displayTemplate": "detailPage",
+            "displayName": "Divines - Coup de coeur",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/detail/4ca3136537e91639e9c9b4d633175140/pfv/1457706.json?id=1457706&params[type]=pfv&cache=780000",
+            "path": "/cinema/divines-coup-de-coeur-bande-annonce-cinema-canal/p/1457706"
+          }
+        },
+        {
+          "type": "pfv",
+          "contentID": "1453415",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.canal-plus.com/wwwplus/image/2/1/1/VIGNETTE_AUTO_729625_H.jpg",
+          "onClick": {
+            "displayTemplate": "detailPage",
+            "displayName": "Le secret des banquises",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/detail/4ca3136537e91639e9c9b4d633175140/pfv/1453415.json?id=1453415&params[type]=pfv&cache=780000",
+            "path": "/cinema/le-secret-des-banquises/p/1453415"
+          }
+        },
+        {
+          "type": "pfv",
+          "contentID": "1456233",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.canal-plus.com/wwwplus/image/2/1/1/nip-nip-132001-640x360-wnzps.jpg",
+          "onClick": {
+            "displayTemplate": "detailPage",
+            "displayName": "Le ciel attendra",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/detail/4ca3136537e91639e9c9b4d633175140/pfv/1456233.json?id=1456233&params[type]=pfv&cache=780000",
+            "path": "/cinema/le-ciel-attendra/p/1456233"
+          }
+        },
+        {
+          "type": "pfv",
+          "contentID": "1457579",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.canal-plus.com/wwwplus/image/2/1/7/nip-nip-132880-640x360-vgjhr.jpg",
+          "onClick": {
+            "displayTemplate": "detailPage",
+            "displayName": "Bridget Jones's baby",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/detail/4ca3136537e91639e9c9b4d633175140/pfv/1457579.json?id=1457579&params[type]=pfv&cache=780000",
+            "path": "/cinema/bridget-jones-s-baby/p/1457579"
+          }
+        },
+        {
+          "type": "pfv",
+          "contentID": "1457578",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.canal-plus.com/wwwplus/image/2/1/7/nip-nip-132879-640x360-owxor.jpg",
+          "onClick": {
+            "displayTemplate": "detailPage",
+            "displayName": "Radin !",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/detail/4ca3136537e91639e9c9b4d633175140/pfv/1457578.json?id=1457578&params[type]=pfv&cache=780000",
+            "path": "/cinema/radin-bande-annonce-cinema-canal/p/1457578"
+          }
+        },
+        {
+          "type": "pfv",
+          "contentID": "1455788",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.canal-plus.com/wwwplus/image/2/1/1/nip-nip-131732-640x360-u09nw.jpg",
+          "onClick": {
+            "displayTemplate": "detailPage",
+            "displayName": "Aquarius",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/detail/4ca3136537e91639e9c9b4d633175140/pfv/1455788.json?id=1455788&params[type]=pfv&cache=780000",
+            "path": "/cinema/aquarius-bande-annonce-cinema-canal/p/1455788"
+          }
+        },
+        {
+          "type": "pfv",
+          "contentID": "1455092",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.canal-plus.com/wwwplus/image/2/1/1/nip-nip-131259-640x360-nzjvu.jpg",
+          "onClick": {
+            "displayTemplate": "detailPage",
+            "displayName": "Ninja Turtles 2",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/detail/4ca3136537e91639e9c9b4d633175140/pfv/1455092.json?id=1455092&params[type]=pfv&cache=780000",
+            "path": "/cinema/ninja-turtles-2-bande-annonce-cinema-canal/p/1455092"
+          }
+        },
+        {
+          "type": "pfv",
+          "contentID": "1455252",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.canal-plus.com/wwwplus/image/2/1/1/nip-nip-131361-640x360-qthnq.jpg",
+          "onClick": {
+            "displayTemplate": "detailPage",
+            "displayName": "La fille inconnue",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/detail/4ca3136537e91639e9c9b4d633175140/pfv/1455252.json?id=1455252&params[type]=pfv&cache=780000",
+            "path": "/cinema/la-fille-inconnue/p/1455252"
+          }
+        },
+        {
+          "type": "pfv",
+          "contentID": "1456552",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.canal-plus.com/wwwplus/image/2/1/1/nip-nip-132167-640x360-tvpxs.jpg",
+          "onClick": {
+            "displayTemplate": "detailPage",
+            "displayName": "Gods of Egypt",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/detail/4ca3136537e91639e9c9b4d633175140/pfv/1456552.json?id=1456552&params[type]=pfv&cache=780000",
+            "path": "/cinema/gods-of-egypt-bande-annonce-cinema-canal/p/1456552"
+          }
+        },
+        {
+          "type": "pfv",
+          "contentID": "1456551",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.canal-plus.com/wwwplus/image/2/1/1/nip-nip-132166-640x360-y0fgb.jpg",
+          "onClick": {
+            "displayTemplate": "detailPage",
+            "displayName": "Ben-Hur",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/detail/4ca3136537e91639e9c9b4d633175140/pfv/1456551.json?id=1456551&params[type]=pfv&cache=780000",
+            "path": "/cinema/ben-hur-bande-annonce-cinema-canal/p/1456551"
+          }
+        },
+        {
+          "type": "pfv",
+          "contentID": "1456550",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.canal-plus.com/wwwplus/image/2/1/1/nip-nip-132165-640x360-dlpfz.jpg",
+          "onClick": {
+            "displayTemplate": "detailPage",
+            "displayName": "Epique epoque",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/detail/4ca3136537e91639e9c9b4d633175140/pfv/1456550.json?id=1456550&params[type]=pfv&cache=780000",
+            "path": "/cinema/epique-epoque-bande-annonce-cinema-canal/p/1456550"
+          }
+        },
+        {
+          "type": "pfv",
+          "contentID": "1456549",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.canal-plus.com/wwwplus/image/2/1/1/nip-nip-132164-640x360-wuntm.jpg",
+          "onClick": {
+            "displayTemplate": "detailPage",
+            "displayName": "Conjuring : le cas Enfield",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/detail/4ca3136537e91639e9c9b4d633175140/pfv/1456549.json?id=1456549&params[type]=pfv&cache=780000",
+            "path": "/cinema/conjuring-le-cas-enfield-bande-annonce-cinema-canal/p/1456549"
+          }
+        },
+        {
+          "type": "pfv",
+          "contentID": "1456319",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.canal-plus.com/wwwplus/image/2/1/1/nip-nip-132035-640x360-dvpna.jpg",
+          "onClick": {
+            "displayTemplate": "detailPage",
+            "displayName": "War dogs",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/detail/4ca3136537e91639e9c9b4d633175140/pfv/1456319.json?id=1456319&params[type]=pfv&cache=780000",
+            "path": "/cinema/war-dogs/p/1456319"
+          }
+        },
+        {
+          "type": "pfv",
+          "contentID": "1454154",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.canal-plus.com/wwwplus/image/2/1/1/nip-nip-130595-640x360-vvzjr.jpg",
+          "onClick": {
+            "displayTemplate": "detailPage",
+            "displayName": "La danseuse",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/detail/4ca3136537e91639e9c9b4d633175140/pfv/1454154.json?id=1454154&params[type]=pfv&cache=780000",
+            "path": "/cinema/la-danseuse/p/1454154"
+          }
+        },
+        {
+          "type": "pfv",
+          "contentID": "1454153",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.canal-plus.com/wwwplus/image/2/1/1/nip-nip-130594-640x360-edfqz.jpg",
+          "onClick": {
+            "displayTemplate": "detailPage",
+            "displayName": "Dans les forets de Siberie",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/detail/4ca3136537e91639e9c9b4d633175140/pfv/1454153.json?id=1454153&params[type]=pfv&cache=780000",
+            "path": "/cinema/dans-les-forets-de-siberie/p/1454153"
+          }
+        },
+        {
+          "type": "pfv",
+          "contentID": "1457470",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.canal-plus.com/wwwplus/image/2/1/1/nip-nip-132820-640x360-bjlrd.jpg",
+          "onClick": {
+            "displayTemplate": "detailPage",
+            "displayName": "Nos pires voisins 2",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/detail/4ca3136537e91639e9c9b4d633175140/pfv/1457470.json?id=1457470&params[type]=pfv&cache=780000",
+            "path": "/cinema/nos-pires-voisins-2-bande-annonce-cinema-canal/p/1457470"
+          }
+        },
+        {
+          "type": "pfv",
+          "contentID": "1457469",
+          "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/media.canal-plus.com/wwwplus/image/2/1/1/nip-nip-132819-640x360-udhob.jpg",
+          "onClick": {
+            "displayTemplate": "detailPage",
+            "displayName": "Suicide squad",
+            "URLPage": "https://hodor.canalplus.pro/api/v1/detail/4ca3136537e91639e9c9b4d633175140/pfv/1457469.json?id=1457469&params[type]=pfv&cache=780000",
+            "path": "/cinema/suicide-squad-bande-annonce-cinema-canal/p/1457469"
+          }
+        }
+      ],
+      "displayParameters": {
+        "imageRatio": "169",
+        "titleDisplayMode": "none"
+      },
+      "paging": {
+        "iterationType": "index",
+        "indexStart": 0,
+        "indexEnd": 17,
+        "nbContents": 18,
+        "totalAvailableContents": 18,
+        "URLPage": "https://hodor.canalplus.pro/api/v1/strateContent/4ca3136537e91639e9c9b4d633175140/pfs/pfv/contents/290.json?dsp=detailPage&sdm=episod&from=18&strateType=contentGrid&imageRatio=169&maxContentNumber=18&doNotIterate=true",
+        "doNotIterate": true
+      }
+    }
+  ]
+}

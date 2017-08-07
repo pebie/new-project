@@ -1,0 +1,53 @@
+//TODO fix import (webpack alias doesn't work with scss)
+@import '../../../rendering/tms-rendering-engine/src/assets/base_scss/utilities';
+body{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+h2{
+  font-size: 3rem;
+}
+
+h3{
+  color: #ec3655;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.list {
+  margin-left: 3rem;
+  &_title{
+    margin-left: 3rem;
+  }
+  &_item {
+    display: inline;
+    padding-right: 2rem;
+    label {
+      cursor: pointer;
+      margin-right: 1rem
+    }
+    input{
+      cursor: pointer;
+    }
+  }
+}
+
+.icon {
+  @include size(3rem);
+  cursor: pointer;
+  &:hover {
+    fill: #ec3655;
+  }
+}
+.right {
+  margin-right:3rem;
+}
+
+.top{
+  margin-top:1rem;
+}
